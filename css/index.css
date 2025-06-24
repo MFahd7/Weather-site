@@ -1,0 +1,131 @@
+body{
+    background-color: #1E202B;
+}
+
+.nav-bg{
+    background-color: #1E202B;
+}
+
+.hero{
+    background-size: cover;
+    padding: 150px 0;
+    min-height: 350px;
+}
+
+.find-location{
+    position: relative;
+    margin-bottom: 70px;
+}
+
+.find-location input[type="text"] {
+    width: 100%;
+    padding: 20px 50px 20px 20px;
+    background: #1e202b;
+    color: white;
+}
+input[type="button"] {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    padding: 0 40px;
+}
+
+form input{
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.forecast-container{
+    background: #323544;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-top: -150px;
+    margin-bottom: 50px;
+}
+
+.forecast-container .forecast {
+    width: 33.33%;
+}
+
+.forecast-container .forecast .forecast-header {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.forecast-container .forecast.today .forecast-content {
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.forecast-container .forecast.today .location {
+    font-size: 1.28em;
+    font-weight: 400;
+}
+
+.forecast-container .forecast .forecast-content .degree {
+    font-size: 1.71em;
+    color: white;
+    font-weight: 700;
+}
+
+.forecast-container .forecast.today .degree .num {
+    font-size: 6.42rem;
+    margin-right: 30px;
+}
+
+.forecast-container .forecast.today span {
+    margin-right: 20px;
+}
+
+/* footer */
+.site-footer {
+  background: #262936;
+  padding: 50px 0;
+}
+.site-footer .subscribe-form {
+  position: relative;
+  margin-bottom: 30px;
+}
+.site-footer .subscribe-form input[type="text"] {
+  padding: 20px 100px 20px 20px;
+  background: #1e202b;
+  width: 100%;
+  color: white;
+}
+.site-footer .subscribe-form input[type="submit"] {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  bottom: 5px;
+}
+.site-footer .social-links a {
+  height: 40px;
+  width: 40px;                  
+  display: inline-flex;          
+  align-items: center;           
+  justify-content: center;       
+  border-radius: 50%;
+  background: #1e202b;
+  color: #009ad8;
+  transition: 0.3s ease;
+  font-size: 1.42em;
+  text-decoration: none;
+}
+.site-footer .social-links a:hover {
+  background: #009ad8;
+  color: white;
+}
+
+.site-header {
+    padding: 50px 0;
+}

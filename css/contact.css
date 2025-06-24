@@ -1,0 +1,129 @@
+body {
+  background-color: #1e202b;
+  font-family: Arial, sans-serif;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+.contact-container {
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 60px 10px;
+}
+
+.breadcrumb {
+  background-color: #2a2d3a;
+  padding: 10px 20px;
+  border-radius: 20px;
+  display: inline-block;
+  margin-bottom: 30px;
+  color: #ccc;
+}
+
+.contact-wrapper {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.contact-info {
+  flex: 1;
+  background-color: #2a2d3a;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.contact-info p {
+  margin: 15px 0;
+  font-size: 0.95em;
+}
+
+.contact-info i {
+  color: #009ad8;
+  margin-right: 10px;
+}
+
+.contact-form {
+  flex: 2;
+}
+
+.contact-form .form-row {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  background: transparent;
+  border: 1px solid #555;
+  border-radius: 30px;
+  padding: 10px 15px;
+  color: #fff;
+  flex: 1;
+}
+
+.contact-form textarea {
+  border-radius: 15px;
+  min-height: 120px;
+  resize: vertical;
+}
+
+.contact-form button {
+  background-color: #009ad8;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 30px;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.contact-form button:hover {
+  background-color: #007ba7;
+}
+
+
+/* footer */
+.site-footer {
+  background: #262936;
+  padding: 50px 0;
+}
+.site-footer .subscribe-form {
+  position: relative;
+  margin-bottom: 30px;
+}
+.site-footer .subscribe-form input[type="text"] {
+  padding: 20px 100px 20px 20px;
+  background: #1e202b;
+  width: 100%;
+  color: white;
+}
+.site-footer .subscribe-form input[type="submit"] {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  bottom: 5px;
+}
+.site-footer .social-links a {
+  height: 40px;
+  width: 40px;                  
+  display: inline-flex;          
+  align-items: center;           
+  justify-content: center;       
+  border-radius: 50%;
+  background: #1e202b;
+  color: #009ad8;
+  transition: 0.3s ease;
+  font-size: 1.42em;
+  text-decoration: none;
+}
+.site-footer .social-links a:hover {
+  background: #009ad8;
+  color: white;
+}
+
+.site-header {
+    padding: 50px 0;
+}

@@ -1,0 +1,105 @@
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Weather site (assignment 13)</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+
+    <!-- navbar -->
+    <nav id="navbar" class="navbar navbar-expand-lg fixed-top nav-bg bg-opacity-75 py-3">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center " href="index.html">
+                <img src="imgs/logo@2x.png" alt="logo" class="w-25" />
+                <div class="text-white ms-2">
+                    <h1 class="fs-5 m-0">Weather</h1>
+                    <p class="fs-6 m-0">tagline goes here</p>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fw-semibold text-uppercase gap-5">
+                    <li class="nav-item">
+                        <a class="nav-link text-white" aria-current="page" href="index.html">Home</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#news">News</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#live-cameras">Live cameras</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#photos">Photos</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- header -->
+    <div class="hero" style="background-image: url('imgs/banner.png');">
+        <div class="container">
+            <form class="find-location">
+                <input type="text" placeholder="Enter your location..." id="search">
+                <input type="button" value="Find" id="submit" class="bg-info text-white">
+            </form>
+        </div>
+    </div>
+
+    <!-- cards -->
+    <div class="forecast-table">
+        <div class="container">
+            <div class="forecast-container" id="forecast">
+                
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8">
+                    <form action="#" class="subscribe-form">
+                        <input type="text" placeholder="Enter your email to subscribe...">
+                        <input type="submit" value="Subscribe" class="bg-info text-white">
+                    </form>
+                </div>
+                <div class="col-md-3 col-md-offset-1">
+                    <div class="social-links">
+                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#"> <i class="fa-brands fa-twitter"></i> </a>
+                        <a href="#"><i class="fa-brands fa-google"></i></a>
+                        <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <p class="colophon text-white">Copyright 2014 Company name. Designed by MoFahd. All rights reserved</p>
+        </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
